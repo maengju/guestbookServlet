@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>방명록</title>
+<title>방명록 쓰기</title>
 <style type="text/css">
 
 
@@ -71,7 +71,8 @@ div{
 			<td colspan="3" align="center">
 				<input type="button" value="글작성" name="writeBtn" id="writeBtn" onclick="checkGuestbookWrite()">
 				<input type="reset" value="다시작성" name="resetBtn" id="resetBtn">
-				<input type="button" value="글목록" name="listBtn" id="listBtn" onclick="location.href='guestbookList.jsp'">
+				<input type="button" value="글목록" name="listBtn" id="listBtn" 
+				onclick="location.href='guestbookList.jsp?pg=1'">
 			</td>
 		</tr>
 	</table>

@@ -34,12 +34,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>작성 완료</title>
 </head>
 <body>
 <h3>작성하신 글을 저장하였습니다.</h3>
 
-<input type="button" value="글 목록" name="documentListBtn" id="documentListBtn" onclick="location.href='guestbookList.jsp'">
+<input type="button" value="글 목록" name="documentListBtn" id="documentListBtn" onclick="location.href='guestbookList.jsp?pg=1'">
 <input type="button" value="글쓰기" onclick="location.href='guestbookWriteForm.jsp'">
 </body>
 </html>
